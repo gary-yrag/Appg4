@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="131dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texto_principal"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#020202"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texto_secundario"
+            android:layout_width="233dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:text="TextView"
+            android:textColor="#0b0b0b" />
+
+        <TextView
+            android:id="@+id/texto_fechahora"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="TextView"
+            android:textColor="#9a9090"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/idnoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>
